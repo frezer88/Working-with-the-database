@@ -1,0 +1,153 @@
+body 
+{
+  background-color: rgb(207, 207, 207);
+}
+
+.ink
+{
+  margin-left: 150px;
+}
+
+.bar {
+  height: 54px;
+  background-color: darkorange;
+}
+
+.window {
+  display:flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+.admin {
+  margin-left: 10px;
+}
+
+.btn {
+  margin-left: 33%;
+}
+
+table {
+    margin:auto; 
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+th,td {
+    font-size:18px;
+    padding: 10px;
+}
+th {
+    background: #555;
+    color: #fff;
+}
+
+td {
+    background: #eee;
+}
+
+
+
+a {
+    text-decoration: none;
+  }
+  
+  nav {
+    font-family: monospace;
+  }
+  
+  ul {
+    background: darkorange;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+    
+  li a {
+    color: #fff;
+  }
+  
+  li:hover {
+    background: red;
+    cursor: pointer;
+  }
+  
+  ul li ul {
+    background: orange;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+
+  .wd {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+  }
+
+  .bt {
+    margin-right: 5px;
+  }
+
+  .glav {
+    margin-top: 65px;
+    margin-left: 5px;
+  }
+
+  .inp {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .sub {
+    margin-left: 90px;
+  }
+
+  .qu
+  {
+    margin-right: 5px;
+  }
+
+  .glav2 {
+    margin-left: 5px  ;
+  }
+
+  .window {
+    width: 425px;	
+    height: 250px; /* Размеры */
+    border: 3px solid black; /* Белая рамка */
+    align-content: space-between;
+    margin:auto;
+    border-radius: 20px; /* Радиус скругления */
+    background-color: white;
+}
+
+  
